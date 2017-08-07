@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <!--网站编码格式，UTF-8 国际编码，GBK或 gb2312 中文编码-->
+  <meta charset="UTF-8">
+  <meta name="Keywords" content="关键词一，关键词二">
+  <meta name="Description" content="网站描述内容">
+  <title>jq倒计时效果</title>
+  <!--css js 文件的引入-->
+	 <link rel="stylesheet" href="css/index.css"/>
+ </head>
+ <body>
+  <div id="jsq">
+	<h3>开始倒计时</h3>
+
+	<!--结束时间开始-->
+	<div class="endTime">
+		<form>
+			请输入：<input type="text" value='2019' />年
+					<input type="text" value='7'/>月
+					<input type="text" value='22' />日
+		</form>
+	</div>
+	<!--结束时间结束-->
+
+	<!--开始按扭-->
+	<div class="begin">开始</div>
+	<p>现在距离以上时间，还剩：</p>
+	<p class="c_Date"><span>0</span>天<span>0</span>小时<span>0</span>分<span>0</span>秒</p>
+  </div>
+ </body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/index.js"></script>
